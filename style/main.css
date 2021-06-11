@@ -1,0 +1,96 @@
+/* COSì POSSIAMO COMMENTARE PER RICORDARCI A COSA SI RIFERISCONO LE VARIE SEZIONI (CSS) */
+
+/****** GENERAL *****/
+
+body {
+color: grey;
+font-family: Roboto, Arial;
+font-size: 20;
+margin: 0px;
+}	
+
+h3 {
+color: #b3003b;
+background-color: #ffe680;
+padding: 30px 10px 20px 10px;
+margin-top: 0px;
+border: 2px #b3003b solid;
+font-weight: bold;
+font-family: Arial;
+border-bottom: black solid 3px;
+}
+
+h4 {
+font-weight: bold;
+font-family: Arial;
+font-size: 30;
+color: #b3003b;
+background-color: #ffe680;
+padding: 30px 10px 20px 30px;
+border: 2px #b3003b solid;
+}
+
+a {
+color:  #ff0000;
+text-decoration: none;
+}
+
+/****** HEADER - il cancelletto è perrichiare l'id, seguito dal nome che abbiamo dato all'id nell'html ******/ 
+#header {
+background-color: darkseagreen;
+}
+
+h1 {
+font-family: Arial, Roboto;
+font-size: 35;
+font-weight: bold;
+color: #b3003b;
+background-color: #ffe680;
+padding: 30px 20px 20px 30px;
+border: 2px #b3003b solid;
+text-align: center;
+margin: 0 0 0 0;
+}
+
+h2 {
+text-align: center;
+margin: auto auto;
+width: 600px;
+color: #b3003b;
+background-color: #ffe680;
+padding: 30px 10px 20px 10px;
+border: 2px #b3003b solid;
+font-weight: bold;
+font-family: Arial;
+}
+
+/**list style type none è per togliere i punti dall'elenco puntato**/
+.nav {
+text-transform: uppercase;
+text-align: center;
+background-color: darkblue;
+list-style-type: none;
+margin-bottom: 0px;
+}
+
+.nav li {
+display: inline-block;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.nav li a {
+	padding: 10px 30px 10px 30px;
+	color: white;
+	}
+
+.nav li a:hover {
+background-color: #ffe680;
+}
+
+/****** CONTENT ******/
+
+#content {
+background-color: darkseagreen;
+margin-bottom: 0px;
+}
